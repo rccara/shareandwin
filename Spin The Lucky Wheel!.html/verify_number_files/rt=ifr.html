@@ -1,0 +1,33 @@
+
+<!-- saved from url=(0063)http://bcp.crwdcntrl.net/5/c=508/rand=1488454576200/pv=y/rt=ifr -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" style="background-color:transparent; width: 100%; text-align: center;">
+<div><script type="text/javascript" src="./moatcontent.js.download"></script><img onerror="(function(e){e.onload.call(e);return false;})(this)" onload="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="0" height="0" style="display:none;"><img src="./lc" width="1" height="1"><img src="./0.gif" width="1" height="1"><img src="./image.sbxx" width="1" height="1"><img src="./generic" width="1" height="1"><img src="./p" width="1" height="1"><img src="./r" width="1" height="1"><img src="./usersync" width="1" height="1"><img src="./usync" height="1" width="1"><img src="./saved_resource(3)" width="1" height="1"><img src="./362568.gif" width="1" height="1"><script>
+function processTargusData(json)
+{
+   if (json != null) {
+       if (json.targus != null) {
+            u = "";
+            v = "map";
+            if (json.targus.sk != null && json.targus.sk != "") {
+                u += "/tp=TARG/tpid=" + json.targus.sk;
+            }
+            if (json.targus.age != null && json.targus.age != "") {
+                u += "/genp=" + (new Date().getFullYear() - json.targus.age);
+                v = "5";
+            }
+            if (json.targus.gender != null && json.targus.gender != "") {
+                u += "/genp=gender%20-%20" + json.targus.gender;
+                v = "5";
+            }
+            if (u != "") {
+              var img = new Image();
+              img.src = "http://bcp.crwdcntrl.net/" + v + "/c=368" + u;
+              document.body.appendChild(img);
+            }
+        }
+   }
+}
+</script>
+<script src="./g.json"></script><img src="./pixel" height="1" width="1"><img src="./5907" width="1" height="1"><img src="./identity" width="1" height="1"></div><img src="./tpid=164030302128000183995">
+
+</body></html>
